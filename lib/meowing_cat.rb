@@ -1,7 +1,7 @@
 class Cat  
   
-  attr_reader :name
-  attr_writer :name
+  attr_accessor :name
 
-maru = Cat.new
-maru.meow = 
+def meow
+  puts "meow"
+end
